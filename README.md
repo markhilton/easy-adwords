@@ -73,7 +73,7 @@ class MyAuth {
             'clientId' => $clientId,
             'clientSecret' => $clientSecret,
             'scope' => $scopes
-        ]
+        ];
 
         // Create an auth object.
         $this->authObject = new AdWordsAuth(NULL, 'my_adwords_config_file_path');
